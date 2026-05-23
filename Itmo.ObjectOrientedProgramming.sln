@@ -1,0 +1,38 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3A8B6812-B42A-4F1B-962F-E4C2696A6F46}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{ABD7D257-AE9C-4DCB-9224-80938748474C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itmo.ObjectOrientedProgramming", "src\Itmo.ObjectOrientedProgramming.csproj", "{00526AC5-5908-441E-ADA5-2E8BBC91919F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itmo.ObjectOrientedProgramming.Tests", "tests\Itmo.ObjectOrientedProgramming.Tests.csproj", "{2BC795FD-9FAC-419E-A8A5-4C432451CBD1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{3DB12F6C-143E-4086-BCB2-2EC3461BC353}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Packages.props = Directory.Packages.props
+		Directory.Build.props = Directory.Build.props
+		.gitignore = .gitignore
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{00526AC5-5908-441E-ADA5-2E8BBC91919F} = {3A8B6812-B42A-4F1B-962F-E4C2696A6F46}
+		{2BC795FD-9FAC-419E-A8A5-4C432451CBD1} = {ABD7D257-AE9C-4DCB-9224-80938748474C}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00526AC5-5908-441E-ADA5-2E8BBC91919F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00526AC5-5908-441E-ADA5-2E8BBC91919F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00526AC5-5908-441E-ADA5-2E8BBC91919F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00526AC5-5908-441E-ADA5-2E8BBC91919F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BC795FD-9FAC-419E-A8A5-4C432451CBD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BC795FD-9FAC-419E-A8A5-4C432451CBD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BC795FD-9FAC-419E-A8A5-4C432451CBD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BC795FD-9FAC-419E-A8A5-4C432451CBD1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
