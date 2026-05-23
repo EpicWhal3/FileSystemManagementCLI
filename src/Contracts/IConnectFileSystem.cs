@@ -2,7 +2,7 @@ namespace Itmo.ObjectOrientedProgramming.Contracts;
 
 public interface IConnectFileSystem
 {
-    void Connect(string address, string? mode);
+    public void Connect(string address, string? mode);
 
-    void Disconnect();
+    public void Disconnect();
 }

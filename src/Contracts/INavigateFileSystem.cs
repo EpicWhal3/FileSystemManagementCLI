@@ -2,15 +2,15 @@ namespace Itmo.ObjectOrientedProgramming.Contracts;
 
 public interface INavigateFileSystem
 {
-    string? CurrentPath { get; set; }
+    public string? CurrentPath { get; set; }
 
-    void ChangeDirectory(string path);
+    public void ChangeDirectory(string path);
 
-    void MoveFile(string sourcePath, string destinationPath);
+    public void MoveFile(string sourcePath, string destinationPath);
 
-    void CopyFile(string sourcePath, string destinationPath);
+    public void CopyFile(string sourcePath, string destinationPath);
 
-    void DeleteFile(string path);
+    public void DeleteFile(string path);
 
-    void RenameFile(string path, string newName);
+    public void RenameFile(string path, string newName);
 }

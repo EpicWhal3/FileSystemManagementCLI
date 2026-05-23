@@ -2,7 +2,7 @@ namespace Itmo.ObjectOrientedProgramming.Contracts;
 
 public interface IReadFileSystem
 {
-    IEnumerable<string> ListDirectory(string path, int depth);
+    public IEnumerable<string> ListDirectory(string path, int depth);
 
-    void ShowFile(string path, string? mode = null);
+    public void ShowFile(string path, string? mode = null);
 }

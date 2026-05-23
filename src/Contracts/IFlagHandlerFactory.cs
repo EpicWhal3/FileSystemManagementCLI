@@ -4,5 +4,5 @@ namespace Itmo.ObjectOrientedProgramming.Contracts;
 
 public interface IFlagHandlerFactory
 {
-    FlagHandler CreateFlagHandlerChain();
+    public FlagHandler CreateFlagHandlerChain();
 }

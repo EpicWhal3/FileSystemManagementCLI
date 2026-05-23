@@ -3,7 +3,7 @@ using Itmo.ObjectOrientedProgramming.Handlers.Commands;
 using Itmo.ObjectOrientedProgramming.ResultTypes;
 using Xunit;
 
-namespace Tests;
+namespace Itmo.ObjectOrientedProgramming.Tests;
 
 public class FileSystemTests
 {

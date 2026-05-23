@@ -4,7 +4,7 @@ namespace Itmo.ObjectOrientedProgramming.Contracts;
 
 public interface IFileSystemVisitor
 {
-    void VisitFile(FileComponent file);
+    public void VisitFile(FileComponent file);
 
-    void VisitDirectory(DirectoryComponent directory);
+    public void VisitDirectory(DirectoryComponent directory);
 }

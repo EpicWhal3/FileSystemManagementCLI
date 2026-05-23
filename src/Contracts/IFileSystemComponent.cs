@@ -2,5 +2,5 @@ namespace Itmo.ObjectOrientedProgramming.Contracts;
 
 public interface IFileSystemComponent
 {
-    void Accept(IFileSystemVisitor visitor);
+    public void Accept(IFileSystemVisitor visitor);
 }

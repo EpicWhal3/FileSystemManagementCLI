@@ -4,5 +4,5 @@ namespace Itmo.ObjectOrientedProgramming.Contracts;
 
 public interface ICommandHandlerFactory
 {
-    CommandHandler CreateCommandHandlerChain();
+    public CommandHandler CreateCommandHandlerChain();
 }
